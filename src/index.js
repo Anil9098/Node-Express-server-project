@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 // Root Route - Ensure it's added before or after your middleware
 
 app.get('/', (req, res) => {
-  res.send('Update by anil bhai,Welcome to the Node.js API!');
+  res.send('Welcome to the Node.js API!');
 });
 
 
